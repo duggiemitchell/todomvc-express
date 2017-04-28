@@ -18,6 +18,6 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.use(favicon(path.join(__dirname, 'public', 'smiley-face-4.ico')))
 
 var port = process.env.PORT || 3000;
-app.listen(3000, function () {
-    console.log('ready on port 3000')
+app.listen(port, function () {
+    console.log('ready on port ' + port)
 })
