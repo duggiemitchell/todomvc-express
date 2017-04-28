@@ -1,7 +1,7 @@
 var express = require('express')
 var path = require('path')
 var bodyParser = require('body-parser')
-var gavicon = require('express-favicon')
+var favicon = require('express-favicon')
 
 var app = express()
 
